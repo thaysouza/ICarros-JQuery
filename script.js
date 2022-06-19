@@ -43,5 +43,13 @@ $(document).ready(
             console.log(data.email)
 
         })
+
+        $('#createContent').click(function () {
+            $('#create').html(`
+            <div class="alert alert-danger" role="alert">
+              A simple primary alert—check it out!
+            </div>
+            `)
+        })
     }
 )
